@@ -8,8 +8,11 @@ Arduino connection (the signal line is connected to aт arbitrary pin, it can be
 
 Connection:
  - Arduino Uno
+ 
 ![Arduino Uno connection scheme](https://nerdytechy.com/wp-content/uploads/2021/01/dht22-arduino-1024x650.jpg)
+
  - Arduino Nano
+
  ![Arduino Nano connection scheme](https://external-content.duckduckgo.com/iu/?u=https://hacksterio.s3.amazonaws.com/uploads/attachments/399838/dht22_PXIGopsnPc.jpg&f=1&nofb=1)
 
 ## Requirements

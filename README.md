@@ -21,6 +21,7 @@ In order to program the Arduino board, the Arduino IDE should be installed. Then
 
  1. Click Sketch -> Include library -> Manage libraries
  2. Type "DHT22" in the Filter your search field and click the Install button (last version):
+ 
  ![Aruino library manager](https://www.makerguides.com/wp-content/uploads/2019/02/Installing-an-Arduino-library-step-2-DHT-Adafruit.png)
  
  In order to run Python script, the latest version on Python and Anaconda/Miniconda should be installed as well. Miniconda is preferable, since the smaller size.

@@ -54,6 +54,7 @@ Then you can just type the following command in the Anaconda Powershell Prompt (
 After that, the script will start running. There is an example of the output in the prompt below:
 
 ![Script running](images/ScriptRunning.png)
+
 *NOTE: The first value is Temperature value, the second one is Humidity value.*
 
 *Note: if there are any messages about missing libraries, use a command like this to install needed libraries/packages (but Miniconda should have all needed libraries by default)*

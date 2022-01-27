@@ -23,9 +23,10 @@ In order to program the Arduino board, the Arduino IDE should be installed. Then
  After installation, you'll be able to run Anaconda prompt. I recommend using the Anaconda Powershell Prompt.
  
  In order to exclude some issues with interrupting the script run with the mouse click, find Anaconda Powershell Prompt in the Start menu, click with the right button and choose "Open file location". Then click on the shortcut in the Explorer with the right button and choose "Properties". Then choose the "Option" section and leave only these options (at least uncheck Quick Edit Mode and Insert mode):
-![Anaconda Powershell Prompt options](images/AnacondaPrompt.png)
+![Anaconda Powershell Prompt options](images/AnacondaPrompt_Options.png)
 
- Also, it's useful to change the default path when Anaconda Powershell Prompt is opened. For this just go to the Shortcut section in Properties and change the "Start in" field (by default contains %HOMEPATH%).
+ Also, it's useful to change the default path when Anaconda Powershell Prompt is opened. For this just go to the Shortcut section in Properties and change the "Start in" field (by default contains %HOMEPATH%):
+ ![Anaconda Powershell Prompt Path](images/AnacondaPrompt_Path.png)
 
 Now everything is ready for the Arduino firmware uploading and running the Python script.
  
@@ -50,9 +51,15 @@ Then you can just type the following command in the Anaconda Powershell Prompt (
 `python DHT22_COM.py`
 After that, the script will start running. There is an example of the output in the prompt below:
 ![Script running](images/ScriptRunning.png)
+*NOTE: The first value is Temperature value, the second one is Humidity value.*
 
 *Note: if there are any messages about missing libraries, use a command like this to install needed libraries/packages (but Miniconda should have all needed libraries by default)*
 `conda install -c anaconda pyserial time`
 
 Also, the script will save all results in the .csv file with a name `Year-Month-Day_Hour-Minutes-Seconds.csv`. An example of the file content is bellow:
 ![csv output example](images/CsvOutput.png)
+
+## Important notes
+
+ - In order to stop the Script runnung just press the `ESC` button
+ - Also the Script could be interrupted with `Ctrl + C`, but it's for the cases when it's stuck. It's better to use the previous method to be sure that .csv file will be saved properly

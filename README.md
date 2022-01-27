@@ -2,8 +2,8 @@
 # DHT22_COM
 
 Arduino firmware and Python script for reading data of the temperature-humidity sensor [DHT-22](https://www.waveshare.com/DHT22-Temperature-Humidity-Sensor.htm) from Arduino.
+
 Arduino connection (the signal line is connected to aт arbitrary pin, it can be changed in the firmware code):
-*Note: the sensor can be powered either with 5 or 3.3 V*
 
  - Arduino Uno
  
@@ -12,6 +12,8 @@ Arduino connection (the signal line is connected to aт arbitrary pin, it can be
  - Arduino Nano
 
  ![Arduino Nano connection scheme](https://external-content.duckduckgo.com/iu/?u=https://hacksterio.s3.amazonaws.com/uploads/attachments/399838/dht22_PXIGopsnPc.jpg&f=1&nofb=1)
+ 
+ *Note: the sensor can be powered either with 5 or 3.3 V*
 
 ## Requirements
 
